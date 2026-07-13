@@ -24,6 +24,7 @@ int main(){
 
 	dis = ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
 	printf("Distance between the said points:%.3f", sqrt(dis));
+	
 
 }
 

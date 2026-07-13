@@ -13,6 +13,7 @@ int main(){
 
 	area = height * width;
 	perimeter = 2 * (height + width);
+	printf(""
 
-	printf("The area of rectangle is %d and perimeter is %d",area,perimeter);
+	printf("The area of rectangle is %d and perimeter is %d\n",area,perimeter);
 }
