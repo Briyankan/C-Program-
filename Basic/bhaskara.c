@@ -31,4 +31,5 @@ int main(){
     }else {
         printf("\nImpossible to find the roots.\n");
     }
+    return 0;
 }
