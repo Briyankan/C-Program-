@@ -19,7 +19,7 @@ int main(){
 	total= ((w1*n1)+(w2*n2));
 	avg= total/(n1+n2);
 
-	printf("Average value:%lf",avg);
+	printf("Average value:%lf",avg); // print average 
 
 	
 }
