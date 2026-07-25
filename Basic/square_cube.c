@@ -15,8 +15,8 @@ Expected Output:
 #include<math.h>
 
 int main(){
-    int n,i,j=1,x,y;
-
+    int n,j=1,x,y;
+    long long i;
     printf("Print numbers with their squares and cubes for n lines\n");
     printf("-------------------------------------------------------\n");
 
@@ -24,7 +24,7 @@ int main(){
     scanf("%d",&n);
 
     for(i =1; i<=n ;i++){
-        printf("%d %d %d\n",i,i*i,i*i*i);
+        printf("%lld %lld %lld\n",i,i*i,i*i*i);
     }
 
 }
